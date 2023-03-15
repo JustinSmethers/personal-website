@@ -1,0 +1,17 @@
+{
+    "name": "my_website",
+    "version": "1.0.0",
+    "description": "My Personal Website",
+    "main": "index.js",
+    "scripts": {
+        "build": "postcss src/css/custom.css -o backend/static/css/main.css"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "devDependencies": {
+        "autoprefixer": "^10.4.2",
+        "postcss": "^8.4.5",
+        "postcss-import": "^14.0.2",
+        "tailwindcss": "^2.2.19"
+    }
+}
